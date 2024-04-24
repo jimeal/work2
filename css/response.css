@@ -678,6 +678,10 @@
 }
 
 @media screen and (max-width: 320px) {
+    .main-vis .mo .mobile {padding-top: 25px;height: 340px;}
+    .main-vis .mo .mobile .moimg {width: 230px;}
+    .main-vis .mo .top {font-size: 30px; padding-top: 0;line-height: 1.35;}
+    .mo .text-ani {min-width: 120px}
     /* 공통 */
     .inner {padding: 0 16px;}
     .header .m-menu .m-gnb > ul > li {padding: 0 16px;}
@@ -772,9 +776,10 @@
 @media screen and (max-width: 280px) {
 
     /* 메인 */
-    .main-vis .mo .imgbox {padding-top: 20px;height: 312px;}
-    .main-vis .mo .imgbox .moimg {width: 230px;}
-    .main-vis .mo p {font-size: 26px;}
+    .main-vis .mo .mobile {padding-top: 20px;height: 312px;}
+    .main-vis .mo .mobile .moimg {width: 230px;}
+    .main-vis .mo .top {font-size: 26px;}
+    .mo .text-ani {min-width: 110px}
     .feature ul li {width: calc((100% - 12px) / 2);padding: 18px;margin-right: 12px;margin-bottom: 12px;}
     .feature ul li p.tit {font-size: 14px;}
     .feature ul li p.tit br {display: none;}
