@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width"/>
+    <title>모빌리언스카드</title>
+	<meta name="title" content="모빌리언스카드">
+	<meta name="subject" content="모빌카드 인트로사이트">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="모빌리언스카드">
+	<meta property="og:description" content="휴대폰 결제, 계좌이체 등 다양한 결제수단으로 모빌리언스카드에 충전하여 전국 어디서나 사용할 수 있는 카드입니다. 지금 바로 발급 받아 보세요.">
+	<meta name="location" content="Seoul Korea">
+	<meta name="author" content="모빌리언스카드">
+	<meta name="author-Date" content="2021-04-06">
+	<meta name="copyright" content="모빌리언스카드">
+	<meta name="description" content="휴대폰 결제, 계좌이체 등 다양한 결제수단으로 모빌리언스카드에 충전하여 전국 어디서나 사용할 수 있는 카드입니다. 지금 바로 발급 받아 보세요.">
+	<meta name="keywords" content="모빌리언스카드, 모빌카드, 휴대폰결제, 오프라인카드, 선불카드, 충전식 카드, KGmobilians, MobilCard">
+	<meta name="classification" content="모빌리언스카드 소개페이지입니다.">
+    <meta property="og:image" content="img/ogimage.png">
+    <meta property="og:image:width" content="1000">
+    <meta property="og:image:height" content="525">
+	<meta name="robots" content="index,follow">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/response.css">
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Minified UMD bundle -->
+    <script src="js/split.js"></script>
+    <!-- ScrollMagic -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/custom.js" defer></script>
+    <script src="js/ani.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header main hdst2">
+            <div class="inner">
+                <div class="gnb-menu">
+                    <div class="gnb-rgt">
+                        <h1>
+                            <a href="index.html"></a>
+                        </h1>
+                        <ul class="gnb">
+                            <li>
+                                <a href="event.html">이벤트</a>
+                            </li>
+                            <li class="dept1">
+                                <a href="javascript:;">이용안내</a>
+                                <ul class="sub-gnb">
+                                    <li><a href="notice.html">공지사항</a></li>
+                                    <li><a href="faq.html">자주 묻는 질문</a></li>
+                                    <li><a href="inquiry.html">이용 문의</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="self-auth.html"><img src="img/btn_card.svg" alt="모빌리언스카드 만들기 버튼"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="gnb-lft">
+                        <div class="mbtn-menu">
+                            <button class="mmenuopen"><i></i><i></i><i></i></button>
+                        </div>
+                    </div>
+                    <div class="m-menu">
+                        <div class="m-gnb">
+                            <div class="m-gnb2">
+                                <a href="index.html" class="logo"></a>
+                                <a href="self-auth.html" class="card"><img src="img/btn_card.svg" alt="모빌리언스카드 만들기 버튼"></a>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="event.html">이벤트</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">이용안내</a>
+                                    <ul>
+                                        <li><a href="notice.html">공지사항</a></li>
+                                        <li><a href="faq.html">자주 묻는 질문</a></li>
+                                        <li><a href="inquiry.html">이용 문의</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="main-con">
+                <div class="main-vis">
+
+                    <div class="main-vis-pc">
+                        <div class="main-vis-inner">
+                          <div class="mobile scroll-spy">
+                            <img class="back-to-position-y to-top delay-0" src="./img/mobile.png" alt="모빌리언스 카드 모바일화면">
+                          </div>
+                    
+                          <!-- 무제한 카드 혜택에 -->
+                          <section class="top scroll-spy">
+                            <h2 class="sr-only">무제한 카드 혜택에</h2>
+                            <div class="top-content back-to-position-x to-left delay-2">
+                              <div class="top-text1 text">무제한</div>
+                              <div class="unlimite con-img"></div>
+                              <div class="top-text2 text">
+                                <span>카드&nbsp;</span>
+                                <!--<img src="./img/plus.png" alt="플러스">-->
+                                <span> 혜택에</span>
+                              </div>
+                            </div>
+                          </section>
+                    
+                          <!-- 편리함을 더하다 -->
+                          <section class="bottom scroll-spy">
+                            <h2 class="sr-only">편리함을 더하다</h2>
+                            <div class="bottom-content back-to-position-x to-right delay-3">
+                              <div class="btm-emoji con-img"></div>
+                    
+                              <article class="text-ani">
+                                <div class="btm-text1 text v-slides">
+                                  <div class="v-slide">편리함을</div>
+                                  <div class="v-slide">즐거움을</div>
+                                  <div class="v-slide">청소년을</div>
+                                </div>
+                              </article>
+                    
+                              <div class="btm-text2 text">더하다</div>
+                              <div class="btm-hash con-img"></div>
+                            </div>
+                          </section>
+                        </div>
+                    </div>
+
+                    <div class="mo scroll-spy">
+                        <section class="top back-to-position-y to-top delay-1">
+                            <span class="top-text">무제한 카드 혜택에</span>
+                            <div class="flex-box">
+                                <article class="text-ani">
+                                    <div class="btm-text1 text v-slides-mo">
+                                        <div class="v-slide-mo">편리함을</div>
+                                        <div class="v-slide-mo">즐거움을</div>
+                                        <div class="v-slide-mo">청소년을</div>
+                                    </div>
+                                </article>
+                                <span class="top-text2">더하다</span>
+                            </div>
+                        </section>
+
+                        <div class="mobile scroll-spy">
+                            <img class="" src="./img/mobile.png" alt="모빌리언스 카드 모바일화면">
+                            <div class="unlimite con-img back-to-position-y to-top delay-2"></div>
+                            <div class="btm-emoji con-img back-to-position-y to-top delay-2"></div>
+                            <div class="btm-hash con-img back-to-position-y to-top delay-2"></div>
+                        </div>
+
+                            <!-- 무제한 카드 혜택에 -->
+                            <!-- <section class="top scroll-spy">
+                              <h2 class="sr-only">무제한 카드 혜택에</h2>
+                              <div class="top-content back-to-position-x to-left delay-2">
+                                <div class="top-text1 text">무제한</div>
+                                <div class="unlimite con-img"></div>
+                                <div class="top-text2 text">
+                                  <span>카드&nbsp;</span>
+                                  <span> 혜택에</span>
+                                </div>
+                              </div>
+                            </section> -->
+                      
+                            <!-- 편리함을 더하다 -->
+                            <!-- <section class="bottom scroll-spy">
+                              <h2 class="sr-only">편리함을 더하다</h2>
+                              <div class="bottom-content back-to-position-x to-right delay-3">
+                                <div class="btm-emoji con-img"></div>
+                      
+                                <article class="text-ani">
+                                  <div class="btm-text1 text v-slides">
+                                    <div class="v-slide">편리함을</div>
+                                    <div class="v-slide">즐거움을</div>
+                                    <div class="v-slide">청소년을</div>
+                                  </div>
+                                </article>
+                      
+                                <div class="btm-text2 text">더하다</div>
+                                <div class="btm-hash con-img"></div>
+                              </div>
+                            </section> -->
+                    </div>
+
+
+
+
+
+                    <!-- <div class="mo">
+                        <p class="" data-aos="fade-up" data-aos-duration="500">무제한 카드 혜택에<br>편리함을 더하다</p>
+                        <div class="imgbox">
+                            <img src="img/mobile.png" alt="" class="moimg">
+                            <img src="img/icn_mainvis1.svg" alt="" class="visicn" data-aos="fade-up" data-aos-duration="800">
+                            <img src="img/icn_mainvis2.svg" alt="" class="visicn" data-aos="fade-up" data-aos-duration="900">
+                            <img src="img/icn_mainvis3.svg" alt="" class="visicn" data-aos="fade-up" data-aos-duration="1000">
+                        </div>
+                    </div> -->
+                    <div class="mo">
+
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="featurewrap">
+                        <div class="inner">
+                            <ul>
+                                <li>
+                                    <div class="top">
+                                        <p class="tit">계좌연결 충전 후 <br>결제 시</p>
+                                        <p class="sub">무제한 페이백</p>
+                                    </div>
+                                    <div class="btm">
+                                        <p class="num">0.5%<span>&nbsp;*24년 5월 시행 예정</span></p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="top">
+                                        <p class="tit">앱 바코드결제 시</p>
+                                        <p class="sub">무제한 페이백</p>
+                                    </div>
+                                    <div class="btm">
+                                        <p class="num"><span>건당 최대</span>7.5%</p> 
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="top">
+                                        <p class="tit">휴대폰결제 <br>충전 시</p>
+                                        <p class="sub">선 충전 사용, 최대 2달 후 지불</p>
+                                    </div>
+                                    <div class="btm">
+                                        <p class="num">+2달</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="top">
+                                        <p class="tit">KG모바일과 <br>함께 쓰면</p>
+                                        <p class="sub">모빌카드 충전, 사용액 추가 페이백</p>
+                                    </div>
+                                    <div class="btm">
+                                        <p class="num"><span>최대</span>5.5%</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="top">
+                                        <p class="tit">청소년도 <br>모빌카드로</p>
+                                        <p class="sub">만 14세 이상이면 누구나</p>
+                                    </div>
+                                    <div class="btm">
+                                        <p class="num">14~</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="top">
+                                        <p class="tit">조건없이 <br>무제한 혜택</p>
+                                        <p class="sub">연회비/발급비/실적조건</p>
+                                    </div>
+                                    <div class="btm">
+                                        <p class="num">ZERO</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainevent">
+                    <div class="inner">
+                        <div class="title">
+                            <p class="mainh3" data-aos="fade-up" data-aos-duration="300">쓸수록 더 커지는 혜택</p>
+                            <p class="mainh2" data-aos="fade-up" data-aos-duration="500">매달 새로운 이벤트를 <br>만나보세요</p>
+                        </div>
+                        <div class="eventlist">
+                            <div class="swiper eventSwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="event2.html">
+                                            <img src="img/thumbnail/mainban1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="event2.html">
+                                            <img src="img/thumbnail/mainban2.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="event2.html">
+                                            <img src="img/thumbnail/mainban3.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="event2.html">
+                                            <img src="img/thumbnail/mainban4.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="event2.html">
+                                            <img src="img/thumbnail/mainban5.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="event2.html">
+                                            <img src="img/thumbnail/mainban6.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="event2.html">
+                                            <img src="img/thumbnail/mainban7.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="event2.html">
+                                            <img src="img/thumbnail/mainban8.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination event"></div>
+                            <div class="swiper-button-prev">
+                                <img src="img/icn_prevnav.svg" alt="이벤트 목록 다음 보기 버튼">
+                            </div>
+                            <div class="swiper-button-next">
+                                <img src="img/icn_nextnav.svg" alt="이벤트 목록 이전 보기 버튼">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefit">
+                    <div class="inner">
+                        <div class="basic">
+                            <div class="title">
+                                <p class="mainh3" data-aos="fade-up" data-aos-duration="400">지금 모빌카드 발급받고</p>
+                                <p class="mainh2" data-aos="fade-up" data-aos-duration="600">추가 혜택도 <br>챙겨보세요</p>
+                            </div>
+                            <div class="list">
+                                <ul>
+                                    <li><span>01 </span> 휴대폰 충전 후 첫 결제 시 2,000P 지급</li>
+                                    <li><span>02 </span> 바코드결제 첫 결제 시 500P 지급</li>
+                                    <li><span>03 </span> KFC 매장 결제 시마다 10% 즉시할인</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <div class="title">
+                                <p class="mainh3" data-aos="fade-up" data-aos-duration="400">쓸수록 플러스가 되는 모빌카드</p>
+                                <p class="mainh2" data-aos="fade-up" data-aos-duration="600">모빌리언스카드, <br>아직도 없으신가요?</p>
+                            </div>
+                            <div class="list" data-aos="fade-up" data-aos-duration="600">
+                                <ul>
+                                    <li>
+                                        <div class="txt">
+                                            <img src="img/icn_benefit1.svg" alt="모빌카드 혜택 아이콘">
+                                            <p class="tit">지금 쓰는 체크카드, <br>혜택이 없다?</p>
+                                            <p class="sub">계좌 충전 사용액의 0.5%를 <br>무제한 적립해 드려요</p>
+                                        </div>
+                                        <div class="tag">
+                                            <ul>
+                                                <li>#계좌연결충전</li>
+                                                <li>#페이백</li>
+                                                <li>#무제한적립</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="txt">
+                                            <img src="img/icn_benefit2.svg" alt="모빌카드 혜택 아이콘">
+                                            <p class="tit">휴대폰결제 충전은?</p>
+                                            <p class="sub">지금 선 충전해서 쓰고 <br>충전 금액은 다음달에 내요</p>
+                                        </div>
+                                        <div class="tag">
+                                            <ul>
+                                                <li>#휴대폰결제충전</li>
+                                                <li>#BNPL</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="txt">
+                                            <img src="img/icn_benefit3.svg" alt="모빌카드 혜택 아이콘">
+                                            <p class="tit">모빌카드는 사용처 <br>제한이 없어요</p>
+                                            <p class="sub">전국 모든 신용카드 가맹점에서 <br>사용 가능해요</p>
+                                        </div>
+                                        <div class="tag">
+                                            <ul>
+                                                <li>#전국모든가맹점</li>
+                                                <li>#온오프라인</li>
+                                                <li>#지방세</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="txt">
+                                            <img src="img/icn_benefit4.svg" alt="모빌카드 혜택 아이콘">
+                                            <p class="tit">신용카드를 많이 쓴다?</p>
+                                            <p class="sub">신용카드 대비 2배, <br>소득공제 30% 혜택을 받을 수 있어요</p>
+                                        </div>
+                                        <div class="tag">
+                                            <ul>
+                                                <li>#모빌카드결제</li>
+                                                <li>#바코드결제</li>
+                                                <li>#소득공제30%</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="txt">
+                                            <img src="img/icn_benefit5.svg" alt="모빌카드 혜택 아이콘">
+                                            <p class="tit">내가 원하는 충전수단을 <br>골라서 사용해보세요!</p>
+                                            <p class="sub">총 8개 다양한 충전수단으로 <br>내가 원할 때 간편하게 충전할 수 있어요</p>
+                                        </div>
+                                        <div class="tag">
+                                            <ul>
+                                                <li>#휴대폰</li>
+                                                <li>#계좌이체</li>
+                                                <li>#신용카드</li>
+                                                <li>#가상계좌</li>
+                                                <li>#상품권(4종)</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="txt">
+                                            <img src="img/icn_benefit6.svg" alt="모빌카드 혜택 아이콘">
+                                            <p class="tit">자녀의 첫 소비습관 <br>모빌카드로 시작!</p>
+                                            <p class="sub">만 14세 이상 본인 명의 휴대폰만 있으면 <br>누구나 신청 가능해요</p>
+                                        </div>
+                                        <div class="tag">
+                                            <ul>
+                                                <li>#만14세이상</li>
+                                                <li>#청소년카드</li>
+                                                <li>#청소년체크카드</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+                <div class="bcdpay">
+                    <div class="title">
+                        <p class="mainh3" data-aos="fade-up" data-aos-duration="600">건당 최대 7.5% 적립!</p>
+                        <p class="mainh2" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">모빌카드 APP 바코드결제로 <br>한도 없는 무한 적립을 누려보세요</p>
+                        <a href="bcdpay.html" class="bcdlink">자세히 보기&nbsp;&nbsp;→</a>
+                    </div>
+                    <div class="bcdpay-logowrap">
+                        <div class="bcdpaylogo">
+                            <div class="bcdlogo-content2">
+                            </div>
+                        </div>
+                        <div class="bcdpaylogo">
+                            <div class="bcdlogo-content">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bcdpay-window">
+                        <div class="swiper bcdSwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="bcd">
+                                        <img src="img/icn_bcdlogo1.png" alt="바코드결제 로고">
+                                        <p class="brand">GS25</p>
+                                        <p class="perc gs25">1.5%</p>
+                                        <img src="img/img_bcdline.png" alt="바코드 이미지">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bcd">
+                                        <img src="img/icn_bcdlogo2.png" alt="바코드결제 로고">
+                                        <p class="brand">이마트</p>
+                                        <p class="perc emart">1.5%</p>
+                                        <img src="img/img_bcdline.png" alt="바코드 이미지">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bcd">
+                                        <img src="img/icn_bcdlogo3.png" alt="바코드결제 로고">
+                                        <p class="brand">매머드커피</p>
+                                        <p class="perc">7.5%</p>
+                                        <img src="img/img_bcdline.png" alt="바코드 이미지">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bcd">
+                                        <img src="img/icn_bcdlogo4.png" alt="바코드결제 로고">
+                                        <p class="brand">롯데리아</p>
+                                        <p class="perc lotte">4.5%</p>
+                                        <img src="img/img_bcdline.png" alt="바코드 이미지">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bcd">
+                                        <img src="img/icn_bcdlogo5.png" alt="바코드결제 로고">
+                                        <p class="brand">홈플러스</p>
+                                        <p class="perc homep">1.5%</p>
+                                        <img src="img/img_bcdline.png" alt="바코드 이미지">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bcd">
+                                        <img src="img/icn_bcdlogo6.png" alt="바코드결제 로고">
+                                        <p class="brand">다이소</p>
+                                        <p class="perc daiso">1.5%</p>
+                                        <img src="img/img_bcdline.png" alt="바코드 이미지">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="statistic">
+                    <div class="inner">
+                        <div class="title">
+                            <p class="mainh2" data-aos="fade-up" data-aos-duration="300">이미 많은 분들이 <br>사용하고 있어요!</p>
+                        </div>
+                        <div class="list">
+                            <ul>
+                                <li>
+                                    <p>1,000억+</p>
+                                    <p>월 평균 충전금액</p>
+                                </li>
+                                <li>
+                                    <p>1조 3천억+</p>
+                                    <p>누적 거래액</p>
+                                </li>
+                                <li>
+                                    <p>45만+</p>
+                                    <p>누적 가입자 수</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="statis-date">&#42;&nbsp;2024년 4월 기준</div>
+                    </div>
+                </div>
+                <div class="review">
+                    <div class="inner">
+                        <div class="rvwrap">
+                            <div class="title">
+                                <p class="mainh3" data-aos="fade-up" data-aos-duration="400">이렇게 좋은</p>
+                                <p class="mainh2" data-aos="fade-up" data-aos-duration="600">모빌리언스카드 <br>지금 신청해 보세요</p>
+                            </div>
+                            <div class="reviewSlide">
+                                <div class="reviewLine">
+                                    <div class="reviewContent2">
+                                        <span class="blind">비상금카드, 후불카드, KG모바일, 알뜰폰, 모빌카드 요금제, 상테크, 상품권, 환급처</span>
+                                    </div>
+                                </div>
+                                <div class="reviewLine">
+                                    <div class="reviewContent">
+                                        <span class="blind">부모님, 자녀, 용돈카드, 간편결제, BC페이북, 온라인에서도결제가능, 모빌카드사용처, 제한없음</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="appdown">
+                    <div class="inner">
+                        <div class="appbox">
+                            <div class="txt">
+                                <p>모빌카드 앱 다운받고<br><span>지금 혜택 받으세요!</span></p>
+                            </div>
+                            <div class="down">
+                                <div class="qr"><img src="img/img_qr.png" alt="모빌리언스카드 앱 다운로드 QR코드"></div>
+                                <div class="link">
+                                    <a href="#"><img src="img/icn_googleplay.svg" alt="모빌리언스카드 앱 다운로드 구글플레이 로고"></a><a href="#"><img src="img/icn_appstore.svg" alt="모빌리언스카드 앱 다운로드 앱스토어 로고"></a>
+                                </div>
+                                <div class="mobtn"><a href="#">앱 다운로드</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <div class="inner">
+                        <div class="infolist">
+                            <ul>
+                                <li>
+                                    <a href="javascript:;" class="info-btn">
+                                        <p class="tit">혜택 안내</p>
+                                    </a>
+                                    <div class="info">
+                                        <div class="info-wrap">
+                                            <p class="tit">결제 금액  0.5% 적립</p>
+                                            <p class="sub">
+                                                적립 조건 : 계좌연결 충전 후 결제 시<br>
+                                                적립률 : 0.5%<br>
+                                                적립 실적 : 조건 없음<br>
+                                                적립 한도 : 제한 없음
+                                            </p>
+                                            <p class="tit">바코드결제 즉시적립</p>
+                                            <p class="sub">
+                                                적립 조건 : 바코드결제 제휴 가맹점에서 모빌리언스카드 앱 내 바코드 결제 시<br>
+                                                적립률 : 최대 7.5% (*가맹점별 상이)<br>
+                                                적립 실적 : 조건 없음<br>
+                                                적립 한도 : 제한 없음
+                                            </p>
+                                            <p class="tit">KFC 10% 즉시할인</p>
+                                            <p class="sub">
+                                                할인 조건 : KFC 매장에서 실물카드로 결제 시<br>
+                                                할인율 : 10%<br>
+                                                적립 실적 : 조건 없음<br>
+                                                적립 한도 : 제한 없음
+                                            </p>
+                                            <p class="sub">
+                                                ※ 결제 적립 유의사항<br>
+                                                - 적립은 모빌포인트로 지급됩니다.<br>
+                                                - 적립 받은 모빌포인트의 유효기간은 1년이며, 이 후 자동 소멸됩니다.<br>
+                                                - 결제 취소 시 적립된 포인트는 전액 회수됩니다.<br>
+                                                - 결제 부분취소 시 적립된 포인트는 취소 금액에 비례하여 회수됩니다.<br>
+                                                - 적립된 포인트는 모빌포인트 정책을 따릅니다.<br>
+                                                - 기타 비정상적인 적립 행위 발견 시, 포인트 회수 등의 조치를 취할 수 있습니다.<br>
+                                                - 본 혜택은 시기별 모빌리언스카드의 정책에 따라 변경될 수 있습니다.<br>
+                                            </p>
+                                            <p class="sub">
+                                                ※ 결제 할인 유의사항<br>
+                                                - 결제 할인은 카드 승인과 동시에 할인된 금액으로 결제됩니다.<br>
+                                                - KFC 일부 특수 매장의 경우 할인이 불가할 수 있습니다.<br>
+                                                - KFC 매장 내 키오스크 이용시 ‘신용카드’ 선택 후 결제 시에만 할인 가능합니다.<br>
+                                                - 본 혜택은 모빌리언스카드의 사정에 따라 변경될 수 있습니다.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" class="info-btn">
+                                        <p class="tit">상품 안내</p>
+                                    </a>
+                                    <div class="info">
+                                        <div class="info-wrap">
+                                            <p class="tit">발급 대상</p>
+                                            <p class="sub">만 19세 이상 본인 명의 휴대폰을 소지한 회원</p>
+                                            <p class="tit">연회비</p>
+                                            <p class="sub">없음</p>
+                                            <p class="tit">발급 수수료</p>
+                                            <p class="sub">없음</p>
+                                            <p class="tit">사용처</p>
+                                            <p class="sub">BC카드를 이용하는 전국 온/오프라인 가맹점</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" class="info-btn">
+                                        <p class="tit">온라인 결제 안내</p>
+                                    </a>
+                                    <div class="info">
+                                        <div class="info-wrap">
+                                            <p class="sub">모빌리언스카드는 BC카드를 사용하는 사용하는 모든 가맹점에서 사용 가능합니다.<br>온라인 결제 시 “비씨카드”를 선택하여 결제해 주세요.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" class="info-btn">
+                                        <p class="tit">기타 안내</p>
+                                    </a>
+                                    <div class="info">
+                                        <div class="info-wrap">
+                                            <p class="tit">카드 배송</p>
+                                            <p class="sub">카드 배송은 영업일 기준 3~5일 정도 소요됩니다.</p>
+                                            <p class="tit">카드 등록</p>
+                                            <p class="sub">모빌카드앱에서 카드 등록할 수 있어요. 앱에서 충전 후 바로 사용해 보세요.</p>
+                                            <p class="tit">이용불가 가맹점</p>
+                                            <p class="sub">해외 결제, 통신요금, 교통카드, 환금성 업종, 게임/P2P 업종</p>
+                                            <p class="tit">기타 안내사항</p>
+                                            <p class="sub">- 카드를 발급받기 전 상세혜택 및 이용조건은 상품안내장, 약관 등을 통해 확인해 주세요.<br>- 모빌리언스카드 관련 문의는 고객센터(1800-0678)를 이용하여 주시기 바랍니다.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="appcta"><a href="#">앱 다운로드 <img src="img/down.png" alt=""></a></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="ft">
+            <div class="inner">
+                <div class="ftwrap">
+                    <div class="corp-info">
+                        <p class="tit">고객센터</p>
+                        <p class="sub">대표번호 : 1800-0678&nbsp;&nbsp;&nbsp;&nbsp;이메일 : mobilpay@kggroup.co.kr</p>
+                        <img src="img/ft_CI.svg" alt="KG모빌리언스 로고">
+                        <p class="sub">사업자번호 : 220-81-82546&nbsp;&nbsp;&nbsp;&nbsp;대표이사 : 유승용</p>
+                        <p class="sub">주소 : 04517 서울특별시 중구 통일로 92 KG타워 16층</p>
+                    </div>
+                    <div class="ft-menu">
+                        <ul>
+                            <li>
+                                이벤트
+                                <ul>
+                                    <li>
+                                        <a href="event.html">이벤트</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                이용안내
+                                <ul>
+                                    <li>
+                                        <a href="notice.html">공지사항</a>
+                                    </li>
+                                    <li>
+                                        <a href="faq.html">자주 묻는 질문</a>
+                                    </li>
+                                    <li>
+                                        <a href="notice.html">이용 문의</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ftwrap">
+                    <div class="ft-term">
+                        <ul>
+                            <li>
+                                <a href="term.html">개인정보처리방침</a>
+                            </li>
+                            <li>
+                                <a href="term1.html">서비스 이용약관</a>
+                            </li>
+                            <li>
+                                <a href="term2.html">전자금융거래 이용약관</a>
+                            </li>
+                            <li>
+                                <a href="term3.html">통신과금서비스 이용약관</a>
+                            </li>
+                            <li>
+                                <a href="https://www.mobilians.co.kr/mpay/moi/moiqMobilInfoInq/index.do">회사소개 <img src="img/icn_openinnew.svg" alt="새창열림 아이콘"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="ft-social">
+                        <ul>
+                            <li><a href="https://www.youtube.com/channel/UCdiGvaRfBceaYqPFP6ffebA" target="_blank"><img src="img/icn_snsyoutube.png" alt=""></a></li>
+                            <li><a href="https://blog.naver.com/kg_mobilians" target="_blank"><img src="img/icn_snsblog.png" alt=""></a></li>
+                            <li><a href="https://Instagram.com/mobilianscard/#" target="_blank"><img src="img/icn_snsinsta.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="ftwrap">
+                    <p class="copyr">Copyright ⓒ KG Mobilians. Corp. All Rights Reserved.</p>
+                </div> -->
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
